@@ -1,0 +1,372 @@
+/* kaylee gourley 
+cics 115
+mini oproject */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(122, 121, 121, 0.75), rgba(0, 0, 0, 0.75)), url(img/adam-vradenburg-_gu7E90QChU-unsplash-2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar {
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* justified makes it center the spaces in the text */
+}
+
+.logo {
+    width: 120px;
+    cursor: pointer;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.navbar ul li a:hover {
+    color: lavender
+}
+
+.navbar ul li a:active {
+    color: blueviolet
+}
+
+.content {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    /* transform makes it be centered in the middle of the section */
+    text-align: center;
+    color: #fff;
+}
+
+.content h1 {
+    font-size: 80px;
+    margin-top: 70px;
+}
+
+.content p {
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+
+}
+
+button {
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10 px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #bf8fff;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* ellie/dog sectiion */
+.ellieHero {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(122, 121, 121, 0.75), rgba(0, 0, 0, 0.75)), url(img/ryan-stone-bpcOR-sES5w-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.ellie p {
+    margin: 5px;
+}
+
+.ellie {
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    /* transform makes it be centered in the middle of the section */
+    text-align: left;
+    color: #fff;
+    margin: 0 0 0 50px;
+}
+
+.dogpicture {
+    width: 250px;
+    height: 250px;
+    background-image: url(img/ellieMae.png);
+    position: fixed;
+    align-items: center;
+    right: 75px;
+
+    /* margin: 50px; */
+
+}
+
+.elliecontent {
+    margin: 50px;
+
+}
+
+.elliecontent h2 {
+    margin: 0 0 5px 0;
+    color: #4e208a;
+}
+
+/* about section  */
+
+.abouthero {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(122, 121, 121, 0.75), rgba(0, 0, 0, 0.75)), url(img/sharissa-johnson-Yis49IPlFws-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.aboutcontent {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    /* transform makes it be centered in the middle of the section */
+    text-align: left;
+    color: #fff;
+    /* margin: 50px; */
+
+
+}
+
+.aboutcontent h1 {
+    font-size: 80px;
+    margin-top: 70px;
+    margin-left: 50px;
+    color: #bf8fff;
+}
+
+.aboutcontent p {
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+    margin-left: 50px;
+
+}
+
+.me {
+    width: 250px;
+    height: 250px;
+    background-image: url(img/IMG_5629.jpeg);
+    background-size: cover;
+    position: fixed;
+    top: 10px;
+    right: 75px;
+    margin: 50px;
+}
+
+table {
+    margin: 50px;
+    padding: 15px;
+}
+
+caption {
+    font-size: 20px;
+    color: #4e208a;
+    margin-bottom: 10px;
+}
+
+.aboutsection {
+    width: 65%;
+    margin: 50px;
+}
+
+.aboutsection h2 {
+    margin-bottom: 15px;
+    color: #4e208a;
+}
+
+
+
+/* portfolio section */
+
+.navbar {
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* justified makes it center the spaces in the text */
+}
+
+.navbar2 {
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* justified makes it center the spaces in the text */
+}
+
+.logo {
+    width: 120px;
+    cursor: pointer;
+}
+
+.navbar2 ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+
+}
+
+.navbar2 ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+}
+
+.navbar2 ul li a:hover {
+    color: rgb(175, 175, 243)
+}
+
+.navbar2 ul li a:active {
+    color: blueviolet
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin: 40px 20px 0 20px;
+}
+
+.heading h1 {
+    padding-bottom: 60px;
+    color: #4e208a;
+}
+
+.container .box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container .box .dream {
+    display: flex;
+    flex-direction: column;
+    width: 32%;
+}
+
+.container .box .dream img {
+    width: 100%;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+
+.container button {
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10 px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #bf8fff;
+    background: transparent;
+    color: #000000;
+    cursor: pointer;
+}
+
+.floatleft {
+    float: left;
+}
+
+.floatright {
+    float: right;
+}
+
+.clearfloat {
+    clear: both;
+}
+
+body h2 {
+    color: #4e208a;
+    margin: 0 0 5px 50px;
+}
+
+/* quiz / form thing  */
+
+.QuizHero {
+    width: 100%;
+    height: 20vh;
+    background-image: linear-gradient(rgba(122, 121, 121, 0.75), rgba(0, 0, 0, 0.75)), url(img/ryan-stone-bpcOR-sES5w-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.blackb button {
+    color: #000000;
+    margin: 10px 0px 0px 50px;
+}
+
+
+/* gd form */
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cfe8fb;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+
+input[type=submit] {
+    background-color: #0473aa;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #bf8fff;
+}
+
+
+.container3 {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
