@@ -1,0 +1,60 @@
+<!-- Kaylee Gourley 
+CICS 115 
+Mini Project 
+ 
+Requirments
+_______________________
+minimum five pages 
+two external links 
+one external Css Seet that spans the whole website 
+5 images 
+a list 
+table 
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+    <div class="QuizHero">
+        <div class="navbar">
+            <img src="img/Name-W.png" alt="K.Gourley" class="logo">
+            <ul>
+                <li> <a href="About.html">About me</a></li>
+                <li> <a href="work.html">My work</a></li>
+                <li> <a href="Ellie.html">My Dog</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="container3">
+        <form action="action_page.php">
+
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+            <label for="country">Country</label>
+            <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+            </select>
+
+            <label for="subject">Tel me about yourself</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+            <input type="submit" value="Submit">
+
+        </form>
+    </div>
+</body>
+
+</html>
